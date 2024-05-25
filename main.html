@@ -7,7 +7,54 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<div class="container">
+        <h2>Internship Application Form</h2>
+		<form id='application-form'>
+			<div class="form-group">
+				<label for='first-name-input'>first Name:</label>
+				<input id='first-name-input' />
+				<div class='invalid-feedback' id='first-name-feedback'>please enter first name.</div>
+			</div>
+			<div class="form-group">
+				<label for='last-name-input'>last Name:</label>
+				<input type='text' id='last-name-input' />
+				<div class='invalid-feedback' id='last-name-feedback'>please enter last name.</div>
+			</div>
+			<div class="form-group">
+				<label for='email-input'>Email:</label>
+				<input type='email' id='email-input' />
+				<div class='invalid-feedback' id='email-feedback'>please enter last name.</div>
+			</div>
+			<div class="form-group">
+				<label for='college-input'>College:</label>
+				<input type='text' id='college-input' />
+				<div class='invalid-feedback' id='college-feedback'>please enter college name.</div>
+			</div>
+			<div class="form-group">
+				<label for='graduation-year-input'>Graduation:</label>
+				<select id='graduation-year-input'>
+					<option vlaue='' disabled selected >Selected Year</option>
+					<option value='2020'>2020</option>
+					<option value='2021'>2021</option>
+					<option value='2022'>2022</option>
+					<option value='2023'>2023</option>
+				</select>
+				<div class='invalid-feedback' id='graduation-year-feedback'>please select your graduation year.</div>
+			</div>
+			<div class="form-group">
+				<label for='roll-no-input'>Roll No:</label>
+				<input type='number' id='roll-no-input'/>
+				<div class='invalid-feedback' id='roll-no-feedback'>please Enter Roll No.</div>
+			</div>
+			<div class="form-group">
+				<input type='checkbox' id='conditions-checkbox'/>
+				<label for='conditions-checkbox'>agree terms and conditions.</label>
+				<div class='invalid-feedback' id='conditions-feedback'>You must agree before submitting.</div>
+			</div>
+			<button type='submit'>Submit term</button>
+		</form>
+	</div>
+		
     <script type="text/javascript" src="./script.js">
 </script>
 
