@@ -108,7 +108,7 @@ document.getElementById('application-form').addEventListener('submit', function(
     }
 
     // Validate Graduation Year
-    const graduationYearInput = document.getElementById('graduation-year-input');
+    const graduationYearInput = document.getElementById('grad-year-select');
     if (graduationYearInput.value === '') {
         document.getElementById('graduation-year-feedback').style.display = 'block';
         isValid = false;
